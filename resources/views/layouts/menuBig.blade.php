@@ -1,4 +1,4 @@
-<section class="s-pageheader s-pageheader--home">
+<section class="s-pageheader s-pageheader--home" style="padding-top: 120px;">
 
     <header class="header">
         <div class="header__content row">
@@ -23,5 +23,3 @@
     </div> <!-- end pageheader-content row -->
 
 </section> <!-- end s-pageheader -->
-
-
