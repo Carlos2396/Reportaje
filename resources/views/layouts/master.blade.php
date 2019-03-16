@@ -35,22 +35,11 @@
 
     <!-- pageheader
     ================================================== -->
-    <section class="s-pageheader s-pageheader--home">
-        <header class="header">
-            <div class="header__content row">
-            
-                @include('layouts.header')
-                
-                @if (!Route::is('index'))
-                    @include('layouts.menu')
-                @endif
-            </div> <!-- header-content -->
-        </header> <!-- header -->
-
-        @if (Route::is('index'))
-            @include('layouts.menuBig')
-        @endif
-    </section> <!-- end s-pageheader -->
+    @if (Route::is('index'))
+        @include('layouts.menuBig')
+    @else
+        @include('layouts.menu')
+    @endif
 
     @yield('content')
 

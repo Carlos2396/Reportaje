@@ -30,5 +30,5 @@ Route::get('/capitulos/{id}', function ($id) {
     if($id - 1 >= 0) $prev = $chapters[$id-1];
     if($id + 1 < sizeof($chapters)) $next = $chapters[$id+1];
 
-    return view('posts/'.$current->view, compact('current', 'next', 'prev'));
+    return view('posts/'.$current->view, compact('chapters', 'current', 'next', 'prev'));
 })->name('chapter');

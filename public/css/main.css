@@ -1721,7 +1721,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-pageheader {
-   min-height: 174px;
+   min-height: 190px;
    background-image: url(../images/hero-bg.jpg);
    background-repeat: no-repeat;
    background-position: center center;
@@ -1785,8 +1785,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header__logo img {
-   width: 265px;
-   height: 48px;
+   height: 72px;
 }
 
 
@@ -2015,13 +2014,12 @@ body.search-is-visible {
 
 @media only screen and (max-width:900px) {
    .header__logo img {
-      width: 250px;
-      height: 45px;
+      height: 60px;
    }
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
    .s-pageheader {
       min-height: 90px;
    }
@@ -2035,8 +2033,7 @@ body.search-is-visible {
    }
 
    .header__logo img {
-      width: 225px;
-      height: 40px;
+      height: 60px;
    }
 
    .header__social {
@@ -2075,8 +2072,7 @@ body.search-is-visible {
    }
 
    .header__logo img {
-      width: 200px;
-      height: 36px;
+      height: 60px;
    }
 
    .header__toggle-menu {
@@ -2104,7 +2100,7 @@ body.search-is-visible {
 
    .header__logo img {
       width: 160px;
-      height: 29px;
+      height: 36px;
    }
 
    .header__toggle-menu {
@@ -2129,6 +2125,7 @@ body.search-is-visible {
    margin-top: 15px;
    border-top: 1px solid rgba(255, 255, 255, 0.04);
    padding-top: 15px;
+   padding-bottom: 10px;
 }
 
 .header__nav-wrap a {
@@ -2270,7 +2267,7 @@ body.search-is-visible {
  * responsive:
  * main navigation
  * ------------------------------------------------------------------- */
-@media only screen and (min-width:801px) {
+@media only screen and (min-width:1001px) {
    .header__nav li.has-children:hover > a::after, 
    .header__nav li.has-children:focus > a::after {
       -webkit-transform: rotate(225deg);
@@ -2284,7 +2281,7 @@ body.search-is-visible {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
    .header__nav-wrap {
       background-color: #151515;
       opacity: 0;
