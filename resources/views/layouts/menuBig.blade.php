@@ -4,7 +4,7 @@
 
             @foreach ($chapters as $chapter)
                 <div class="featured__column featured__column--big">
-                    @include('layouts.entry', $chapter)
+                    @include('layouts.entry', ['chapter' => $chapter])
                 </div> <!-- end featured__small -->
             @endforeach
          
