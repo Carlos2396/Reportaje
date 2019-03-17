@@ -3891,6 +3891,22 @@ footer h4::after {
 }
 
 @media only screen and (max-width:1000px) {
+   .s-content__media embed {
+      max-width: 100%;
+      margin: 3rem 0 3rem -4rem;
+   }
+
+}
+
+@media only screen and (max-width:1000px) {
+   .s-content__media embed {
+      max-width: 100%;
+      margin: 3rem 0 3rem -4rem;
+   }
+
+}
+
+@media only screen and (max-width:1000px) {
    .s-content--narrow .s-content__header {
       padding: 0 6rem;
    }
