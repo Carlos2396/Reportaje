@@ -1396,11 +1396,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    list-style: none;
    width: 100%;
    padding: 0;
-   margin: 3rem 0 0 0;
-   text-align: center;
+   margin: 2.5rem 0 0 0;
+   text-align: left;
    position: absolute;
-   top: 100%;
-   left: 0;
+   top: 90%;
+   left: 5%;
 }
 
 .slick-slider .slick-dots li {

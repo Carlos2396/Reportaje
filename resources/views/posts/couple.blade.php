@@ -50,7 +50,7 @@
             <p>Es necesario llegar a un matiz: respaldo e independencia, cuidado y libertad. El bienestar en edades avanzadas exige nuevas dinámicas donde los acuerdos sean la base. También es importante que reconozcan como principal red de apoyo a la familia. En muchas ocasiones, motivados por falsos estándares, piensan que causarán molestias si expresan lo que necesitan. Doña Gloria comenta al respecto: “Guillermo y yo siempre nos propusimos no depender de Adriana ni de Memo porque no queremos ser una carga”. Además, ellos reconocen que sus hijos tienen sus propias responsabilidades y no pueden cuidarlos.</p>
             <p>La sociedad actual exige que se retome la cercanía que en algún tiempo existió entre generaciones, que los jóvenes se aseguren de que los adultos mayores sepan que cuentan con ellos y, reconocer que en la calidad de interacción estará el bienestar de la convivencia.</p>
             
-            <p>Y ahora que ya no estás ¿Quién soy yo?: vivir sin el amor de tu vida</p>
+            <h2>Y ahora que ya no estás ¿Quién soy yo?: vivir sin el amor de tu vida</h2>
             <p>Doña Alicia es una mujer fuerte. A pesar de extrañar a su esposo David, está agradecida con Dios por la vida que tiene. Fue la menor de cuatro hermanos, vivió con sus padres, estudió, y trabajó en una fábrica hasta contraer matrimonio y tener a sus dos hijos. Hace un año murió el amor de su vida y actualmente vive con su hijo y nuera. Casi siempre está en su casa: limpia, riega las plantas, hace de comer y acomoda algo todos los días. A ella le gustan los postres, las manualidades y pasear.</p>
             <p>Es una mujer detallista, tiene anotadas todas las fechas importantes en una hoja. Su memoria a veces le falla y así puede recordar los cumpleaños, santos y aniversarios -boda o fallecimiento- de sus seres queridos. En la mañana, se aproxima al calendario y toma la hoja, checa el día que corresponde y si aplica, tiene la atención de llamar a primera hora para dar una felicitación o una condolencia. Para ella, hablar por teléfono es una forma de estar presente.  </p>
             <p>Al convivir con un adulto mayor se debe prestar atención a lo que es importante para ellos, observar sus actividades recurrentes, la forma en que solicitan algo, el tono en que hablan o el semblante que tienen en una fecha particular. Si se tiene la apertura para comprenderlos será posible entablar un diálogo. La comunicación es indispensable en cualquier tipo de relación y para que esta pueda ocurrir es necesario poner en común a las personas que participen de ella.</p>
@@ -61,13 +61,23 @@
             <p>En el duelo, agrega Chávez Ortíz, el dolor es para la persona que se queda porque la muerte de un ser amado implica una pérdida no sólo física, sino de vínculo, porque éste desaparece y entonces, dejas de ser lo que eras. “Ya no eres la esposa de fulanito, te conviertes en la viuda de fulanito; entonces, dejas de ser lo que eras. Este problema afecta en particular a las generaciones mayores, porque incluso el rol que desempeñaban se ve mermado. La señora era la cocinera, la que lavaba, la que planchaba y cuidaba la casa. Cuando eso cambia y este rol desaparece, hay una sensación de pérdida de identidad y surge la pregunta ahora, ¿quién soy yo?”.</p>
             <p>El Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo (Inadi) de Argentina explica en el documento <a href="http://www.inadi.gob.ar/contenidos-digitales/wp-content/uploads/2017/06/Discriminacion-por-Edad-Vejez-Estereotipos-y-Prejuicios-FINAL.pdf">Discriminación por Edad, Vejez, Estereotipos y Prejuicios</a> que “La pérdida de la pareja es un factor de riesgo para la salud física y emocional que –en muchos casos– anticipa una muerte temprana. La Organización Mundial de la Salud (OMS) considera que el año siguiente a la pérdida de la pareja es un momento en el cual se incrementa la vulnerabilidad y el riesgo de padecer enfermedades.”</p>
             <p>Este proceso, señala Chávez, se vive diferente en cada persona porque está determinado por muchos factores: lo que se aprendió de la muerte, la fortaleza y cercanía del vínculo con esa persona, entre otras cosas. Sin embargo, agrega, nuestra cultura no está preparada para hablar de muerte porque es un tema que no se aborda ni siquiera dentro de la familia. Si no hay un trabajo con relación a la muerte, cuando se vive este proceso el shock puede ser de tal magnitud que la persona se cierra y no sabe cómo actuar, ni qué decir. Por ello, añade, es necesario platicar sobre la muerte; para trabajar qué pasaría, qué se necesitaría y cómo se sentiría cada miembro de la familia.</p>
-            
-            <!-- Ensayo fotográfico Alicia: No estoy sola -->
-            
+        </div> <!-- end s-content__main -->
+
+        <!-- Ensayo fotográfico Alicia: No estoy sola -->
+        <div class="s-content__media col-full">
+            <div class="s-content__slider slider">
+                <div class="slider__slides">
+                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/1.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/2.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/3.svg')])
+                </div>
+            </div>
+        </div> <!-- end s-content__media -->
+
+        <div class="col-full s-content__main">
+
             <p>Doña Alicia se empeña en mirar lo bueno que le rodea. Por ello, explota sus talentos: teje ropa para el frío, pinta cuadros y borda en punto de cruz. Aprendió desde joven y ha perfeccionado sus técnicas en la <a href="http://www.difestatal.puebla.gob.mx/estancias.php">Casa del Abue</a>, lugar que tiene un significado grande en su vida porque ahí ha conocido amigas y tiene pasatiempos fuera de casa. </p>
             <p>Ella sigue ocupando el transporte público y aún puede moverse por sí misma dentro de la ciudad. Además, reconoce que a pesar de no ver a sus hijos el tiempo que quisiera, siempre está sostenida por ellos.</p>
-                
-
 
             @include('layouts.chapter-nav')
 
