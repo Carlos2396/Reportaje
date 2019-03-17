@@ -3896,6 +3896,10 @@ footer h4::after {
       margin: 3rem 0 3rem -4rem;
    }
 
+   .slick-slider .slick-dots {
+      top: 70%;
+   }
+
 }
 
 @media only screen and (max-width:1000px) {
@@ -3904,6 +3908,9 @@ footer h4::after {
       margin: 3rem 0 3rem -4rem;
    }
 
+   .slick-slider .slick-dots {
+      top: 60%;
+   }
 }
 
 @media only screen and (max-width:1000px) {
