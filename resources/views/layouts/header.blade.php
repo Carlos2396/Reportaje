@@ -1,6 +1,6 @@
 <div class="header__logo">
     <a class="logo" href="{{ route('index') }}">
-        <img src="{{ asset('images/logo.svg') }}" alt="Inicio">
+        <embed src="{{ asset('images/logo.svg') }}" alt="Inicio">
     </a>
 </div> <!-- end header__logo -->
 

@@ -1788,6 +1788,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    height: 72px;
 }
 
+.header__logo embed {
+   height: 72px;
+}
+
 
 /* -------------------------------------------------------------------
  * ## header social
@@ -2017,6 +2021,9 @@ body.search-is-visible {
       height: 60px;
    }
 
+   .header__logo embed {
+      height: 60px;
+   }
 }
 
 @media only screen and (max-width:1000px) {
@@ -2033,6 +2040,10 @@ body.search-is-visible {
    }
 
    .header__logo img {
+      height: 60px;
+   }
+
+   .header__logo embed {
       height: 60px;
    }
 
@@ -2075,6 +2086,10 @@ body.search-is-visible {
       height: 60px;
    }
 
+   .header__logo embed {
+      height: 60px;
+   }
+
    .header__toggle-menu {
       top: -3px;
    }
@@ -2099,6 +2114,11 @@ body.search-is-visible {
    }
 
    .header__logo img {
+      width: 160px;
+      height: 36px;
+   }
+
+   .header__logo embed {
       width: 160px;
       height: 36px;
    }
