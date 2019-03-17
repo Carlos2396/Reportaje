@@ -1,5 +1,5 @@
 <div class="slider__slide">
-        <img src="{{ $url }}" 
+        <embed src="{{ $url }}" 
         srcset="{{ $url }} 2000w, 
                 {{ $url }} 1000w, 
                 {{ $url }} 500w" 
