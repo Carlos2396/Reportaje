@@ -12,7 +12,7 @@
 
         <div class="s-content__media col-full">
             <div class="s-content__post-thumb">
-                <embed id="infography" src="{{ asset('info/BuenTrato.svg') }}">
+                <embed id="infography" src="{{ asset('info/BuenTratos.svg') }}">
             </div>
         </div> <!-- end s-content__media -->
 
