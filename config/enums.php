@@ -34,7 +34,7 @@ return [
             "id": 4,
             "title": "Sobre la soledad",
             "menu": "Epílogo",
-            "image": "images/epilogo.svg",
+            "image": "images/menu/epilogo.png",
             "view": "epilogue"
         },
         {

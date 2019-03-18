@@ -6,7 +6,7 @@
             <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
 
             <nav class="header__nav-wrap">
-                <h2 class="header__nav-heading h6">Site Navigation</h2>
+                <h2 class="header__nav-heading h6">Contenido</h2>
 
                 <ul class="header__nav">
                     <li><a href="/" title="">Inicio</a></li>

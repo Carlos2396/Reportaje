@@ -12,6 +12,12 @@
 
         <div class="s-content__media col-full">
             <div class="s-content__post-thumb">
+                <embed id="infography" src="{{ asset('info/BuenTrato.svg') }}">
+            </div>
+        </div> <!-- end s-content__media -->
+
+        <div class="s-content__media col-full">
+            <div class="s-content__post-thumb">
                 <img src="{{ asset('images/thumbs/single/standard/standard-1000.jpg')}}" 
                      srcset="{{ asset('images/thumbs/single/standard/standard-2000.jpg')}} 2000w, 
                              {{ asset('images/thumbs/single/standard/standard-1000.jpg')}} 1000w, 

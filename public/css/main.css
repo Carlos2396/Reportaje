@@ -3661,6 +3661,10 @@ footer h4::after {
    position: relative;
 }
 
+#infography {
+   margin-left: 10%; 
+   max-width: 100%;
+}
 
 /* -------------------------------------------------------------------
  * ## post tags
@@ -3896,6 +3900,11 @@ footer h4::after {
    .s-content__media embed {
       max-width: 100%;
       margin: auto;
+   }
+
+   #infography {
+      margin: auto; 
+      max-width: 100%;
    }
 }
 
