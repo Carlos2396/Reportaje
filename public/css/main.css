@@ -3652,6 +3652,12 @@ footer h4::after {
    vertical-align: bottom;
 }
 
+.s-content__media embed {
+   vertical-align: bottom;
+   margin: auto;
+   max-width: 1000px;
+}
+
 .s-content__media, .s-content__post-thumb {
    position: relative;
 }
@@ -3888,12 +3894,16 @@ footer h4::after {
       margin: 3rem 0 3rem -5rem;
    }
 
+   .s-content__media embed {
+      max-width: 100%;
+      margin: auto;
+   }
 }
 
 @media only screen and (max-width:1000px) {
    .s-content__media embed {
       max-width: 100%;
-      margin: 3rem 0 3rem -4rem;
+      margin: auto;
    }
 
    .slick-slider .slick-dots {
@@ -3905,7 +3915,7 @@ footer h4::after {
 @media only screen and (max-width:1000px) {
    .s-content__media embed {
       max-width: 100%;
-      margin: 3rem 0 3rem -4rem;
+      margin: auto;
    }
 
    .slick-slider .slick-dots {

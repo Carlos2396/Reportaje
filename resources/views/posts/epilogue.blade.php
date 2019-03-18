@@ -11,10 +11,10 @@
 
         <div class="s-content__media col-full">
             <div class="s-content__post-thumb">
-                <img src="{{ asset('images/thumbs/single/standard/standard-1000.jpg')}}" 
-                     srcset="{{ asset('images/thumbs/single/standard/standard-2000.jpg')}} 2000w, 
-                             {{ asset('images/thumbs/single/standard/standard-1000.jpg')}} 1000w, 
-                             {{ asset('images/thumbs/single/standard/standard-500.jpg')}} 500w" 
+                <embed src="{{ asset('images/epilogo.svg') }}" 
+                     srcset="{{ asset('images/epilogo.svg')}} 2000w, 
+                             {{ asset('images/epilogo.svg')}} 1000w, 
+                             {{ asset('images/epilogo.svg')}} 500w" 
                      sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
             </div>
         </div> <!-- end s-content__media -->
