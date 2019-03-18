@@ -40,7 +40,7 @@ return [
         {
             "id": 5,
             "title": "Conoce más",
-            "menu": "Sobre adultos mayores",
+            "menu": "Conoce más",
             "image": "images/thumbs/featured/featured-beetle.jpg",
             "view": "more"
         }
