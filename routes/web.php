@@ -22,6 +22,9 @@ Route::get('/capitulos/{id}', function ($id) {
     $s = config('enums.chapters');
     $chapters = json_decode($s);
 
+    $s = config('enums.infos');
+    $infos = json_decode($s);
+
     if($id < 0 || $id > sizeof($chapters)) return redirect(route('index'));
 
     $next = $prev = null;
@@ -30,5 +33,23 @@ Route::get('/capitulos/{id}', function ($id) {
     if($id - 1 >= 0) $prev = $chapters[$id-1];
     if($id + 1 < sizeof($chapters)) $next = $chapters[$id+1];
 
-    return view('posts/'.$current->view, compact('chapters', 'current', 'next', 'prev'));
+    return view('posts/'.$current->view, compact('chapters', 'current', 'next', 'prev', 'infos'));
 })->name('chapter');
+
+Route::get('/infografias/{id}', function ($id) {
+    $s = config('enums.chapters');
+    $chapters = json_decode($s);
+
+    $s = config('enums.infos');
+    $infos = json_decode($s);
+
+    if($id < 0 || $id > sizeof($infos)) return redirect(route('index'));
+    
+    $next = $prev = null;
+    $current = $infos[$id];
+
+    if($id - 1 >= 0) $prev = $infos[$id-1];
+    if($id + 1 < sizeof($infos)) $next = $infos[$id+1];
+
+    return view('posts/info', compact('chapters', 'current', 'next', 'prev'));
+})->name('info');

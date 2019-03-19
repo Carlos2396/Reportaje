@@ -16,44 +16,17 @@
 
             <div class="grid-sizer"></div>
 
-            <article class="masonry__brick entry format-link" data-aos="fade-up">
-                
-                <div class="entry__thumb">
-                    <div class="link-wrap">
-                        <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
-                        <cite>
-                            <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
-                        </cite>
+            @foreach ($infos as $info)
+                <article class="masonry__brick entry format-link" data-aos="fade-up">
+                    <div class="entry__thumb">
+                        <div class="link-wrap">
+                            <a href="{{ route('info', $info->id) }}">
+                                <p>{{ $info->title }}</p>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                
-            </article> <!-- end article -->
-
-            <article class="masonry__brick entry format-link" data-aos="fade-up">
-                
-                <div class="entry__thumb">
-                    <div class="link-wrap">
-                        <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
-                        <cite>
-                            <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
-                        </cite>
-                    </div>
-                </div>
-                
-            </article> <!-- end article -->
-
-            <article class="masonry__brick entry format-link" data-aos="fade-up">
-                
-                <div class="entry__thumb">
-                    <div class="link-wrap">
-                        <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
-                        <cite>
-                            <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
-                        </cite>
-                    </div>
-                </div>
-                
-            </article> <!-- end article -->
+                </article> <!-- end article -->
+            @endforeach
 
         </div> <!-- end masonry -->
     </div> <!-- end masonry-wrap -->

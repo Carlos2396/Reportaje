@@ -44,5 +44,22 @@ return [
             "image": "images/thumbs/featured/featured-beetle.jpg",
             "view": "more"
         }
+    ]',
+    "infos" => '[
+        {
+            "id": 0,
+            "title": "Buen trato a adultos mayores",
+            "image": "info/BuenTrato3.svg"
+        },
+        {
+            "id": 1,
+            "title": "Hasta que la muerte nos separe",
+            "image": "info/BuenTrato3.svg"
+        },
+        {
+            "id": 2,
+            "title": "Acompañado",
+            "image": "info/BuenTrato3.svg"
+        }
     ]'
 ];
