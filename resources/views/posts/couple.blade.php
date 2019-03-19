@@ -51,6 +51,19 @@
             <p>La sociedad actual exige que se retome la cercanía que en algún tiempo existió entre generaciones, que los jóvenes se aseguren de que los adultos mayores sepan que cuentan con ellos y, reconocer que en la calidad de interacción estará el bienestar de la convivencia.</p>
             
             <h2>Y ahora que ya no estás ¿Quién soy yo?: vivir sin el amor de tu vida</h2>
+        </div>
+        
+        <div class="s-content__media col-full">
+            <div class="s-content__post-thumb">
+                <embed src="{{ asset('images/Alicia/1.svg') }}" 
+                     srcset="{{ asset('images/Alicia/1.svg')}} 2000w, 
+                             {{ asset('images/Alicia/1.svg')}} 1000w, 
+                             {{ asset('images/Alicia/1.svg')}} 500w" 
+                     sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+            </div>
+        </div> <!-- end s-content__media -->
+
+        <div class="col-full s-content__main">
             <p>Doña Alicia es una mujer fuerte. A pesar de extrañar a su esposo David, está agradecida con Dios por la vida que tiene. Fue la menor de cuatro hermanos, vivió con sus padres, estudió, y trabajó en una fábrica hasta contraer matrimonio y tener a sus dos hijos. Hace un año murió el amor de su vida y actualmente vive con su hijo y nuera. Casi siempre está en su casa: limpia, riega las plantas, hace de comer y acomoda algo todos los días. A ella le gustan los postres, las manualidades y pasear.</p>
             <p>Es una mujer detallista, tiene anotadas todas las fechas importantes en una hoja. Su memoria a veces le falla y así puede recordar los cumpleaños, santos y aniversarios -boda o fallecimiento- de sus seres queridos. En la mañana, se aproxima al calendario y toma la hoja, checa el día que corresponde y si aplica, tiene la atención de llamar a primera hora para dar una felicitación o una condolencia. Para ella, hablar por teléfono es una forma de estar presente.  </p>
             <p>Al convivir con un adulto mayor se debe prestar atención a lo que es importante para ellos, observar sus actividades recurrentes, la forma en que solicitan algo, el tono en que hablan o el semblante que tienen en una fecha particular. Si se tiene la apertura para comprenderlos será posible entablar un diálogo. La comunicación es indispensable en cualquier tipo de relación y para que esta pueda ocurrir es necesario poner en común a las personas que participen de ella.</p>
@@ -67,9 +80,8 @@
         <div class="s-content__media col-full">
             <div class="s-content__slider slider">
                 <div class="slider__slides">
-                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/1.svg')])
-                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/2.svg')])
                     @include('layouts.galleryImg', ['url' => asset('images/Alicia/3.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Alicia/2.svg')])
                 </div>
             </div>
         </div> <!-- end s-content__media -->

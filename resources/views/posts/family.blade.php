@@ -13,10 +13,10 @@
 
         <div class="s-content__media col-full">
             <div class="s-content__post-thumb">
-                <img src="{{ asset('images/thumbs/single/standard/standard-1000.jpg')}}" 
-                     srcset="{{ asset('images/thumbs/single/standard/standard-2000.jpg')}} 2000w, 
-                             {{ asset('images/thumbs/single/standard/standard-1000.jpg')}} 1000w, 
-                             {{ asset('images/thumbs/single/standard/standard-500.jpg')}} 500w" 
+                <embed src="{{ asset('images/family.svg') }}" 
+                     srcset="{{ asset('images/family.svg')}} 2000w, 
+                             {{ asset('images/family.svg')}} 1000w, 
+                             {{ asset('images/family.svg')}} 500w" 
                      sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
             </div>
         </div> <!-- end s-content__media -->
@@ -56,6 +56,20 @@
             <p>El acompañamiento a un adulto mayor, no se agota en el acompañamiento físico y estar “veinticuatro-siete” con ellos, sino a tener relaciones comunicativas basadas en disposición, apertura, calidad y resonancia. Es tenerle presente y ser presencia.</p>
             
             <h2>El abuelo tiene novia: rompiendo estereotipos</h2>
+
+        </div>
+        
+        <div class="s-content__media col-full">
+            <div class="s-content__post-thumb">
+                <embed src="{{ asset('images/ImeldaYPedro.svg') }}" 
+                     srcset="{{ asset('images/ImeldaYPedro.svg')}} 2000w, 
+                             {{ asset('images/ImeldaYPedro.svg')}} 1000w, 
+                             {{ asset('images/ImeldaYPedro.svg')}} 500w" 
+                     sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+            </div>
+        </div> <!-- end s-content__media -->
+
+        <div class="col-full s-content__main">
             <p>Don Pedro es un hombre callado, la prudencia y la seguridad lo caracterizan. Fue hijo único de madre soltera y cuando formó su propia familia decidió, junto a su esposa Elena, tener ocho hijos. En su juventud fue un hombre de trabajo constante y entrega a su familia.</p>
             <p>Actualmente tiene 89 años y aún disfruta de estar activo: lee el periódico diario, limpia la cocina, ayuda a pelar verdura para hacer de comer y lava su ropa. Vive con su hijo mayor, Gerardo y come todos los días con su hija Maricarmen y su nieto Alberto.</p> 
             <p>Gusta de ir a la iglesia: los domingos por la mañana a misa y los jueves por la tarde a la hora santa.  Sale de casa con quince minutos de antelación para caminar a su parroquia, lugar que tiene un significado especial para él, no sólo porque ahí es donde pide ayuda y encuentra consuelo, sino porque ahí encontró una gran motivación para su vida.</p> 

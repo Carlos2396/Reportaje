@@ -12,23 +12,17 @@
 
         <div class="s-content__media col-full">
             <div class="s-content__post-thumb">
-                <embed id="infography" src="{{ asset('info/BuenTrato3.svg') }}">
-            </div>
-        </div> <!-- end s-content__media -->
-
-        <div class="s-content__media col-full">
-            <div class="s-content__post-thumb">
-                <img src="{{ asset('images/thumbs/single/standard/standard-1000.jpg')}}" 
-                     srcset="{{ asset('images/thumbs/single/standard/standard-2000.jpg')}} 2000w, 
-                             {{ asset('images/thumbs/single/standard/standard-1000.jpg')}} 1000w, 
-                             {{ asset('images/thumbs/single/standard/standard-500.jpg')}} 500w" 
+                <embed src="{{ asset('images/intro.svg') }}" 
+                     srcset="{{ asset('images/intro.svg')}} 2000w, 
+                             {{ asset('images/intro.svg')}} 1000w, 
+                             {{ asset('images/intro.svg')}} 500w" 
                      sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
             </div>
         </div> <!-- end s-content__media -->
 
         <div class="col-full s-content__main">
 
-            <p class="lead">El número de adultos mayores está incrementando alrededor del mundo. De acuerdo con la <a href="https://www.who.int/ageing/about/facts/es/">Organización Mundial de la Salud (OMS)</a>, “entre 2000 y 2050, la proporción de los habitantes del planeta mayores de 60 años se duplicará, pasando del 11% al 22%. En números absolutos, este grupo de edad pasará de 605 millones a 2,000 millones en el transcurso de medio siglo”.</p>
+            <p>El número de adultos mayores está incrementando alrededor del mundo. De acuerdo con la <a href="https://www.who.int/ageing/about/facts/es/">Organización Mundial de la Salud (OMS)</a>, “entre 2000 y 2050, la proporción de los habitantes del planeta mayores de 60 años se duplicará, pasando del 11% al 22%. En números absolutos, este grupo de edad pasará de 605 millones a 2,000 millones en el transcurso de medio siglo”.</p>
             
             <p>Para el caso de México, el <a href="https://www.gob.mx/inapam/prensa/conapo-e-inapam-de-la-mano-en-la-atencion-del-envejecimiento-156950?idiom=es"> Nacional de las Personas Adultas Mayores (Inapam)</a>, estima que, para 2018, habitaban casi 13 millones de personas mayores de 60 años, y que para 2030, según proyecciones del Consejo Nacional de Población (Conapo), esta cifra llegará a 20 millones de personas (Gráfica 1). Lo anterior permite evidenciar que la vejez tiene una relevancia social considerable en la que cada vez más individuos están incluidos y que demanda ser atendida de forma adecuada.</p>
 
@@ -36,7 +30,7 @@
             <br>
 
             <p>Guadalupe Chávez Ortíz, directora del departamento de Ciencias de la Salud de la Ibero Puebla, señala que si se analizan los estudios sobre adultos mayores se encontrará con que es un tema nuevo, cobró interés para diferentes disciplinas hasta los años sesenta, que es cuando las pirámides poblacionales empezaron a invertirse, lo que dejó entrever cómo el mundo está envejeciendo. En América Latina, el estudio es aún más reciente porque este fenómeno comenzó a ser visible hace pocos años.</p>
-            <p>En términos más generales, es una tendencia que va al alza donde lo más preocupante radica en la vulnerabilidad de aquellos que entran a él. Así como se ganan años y sabiduría, se pierden agudeza en los sentidos y, a veces, capacidades cognitivas.</p>
+            <p class="lead">En términos más generales, es una tendencia que va al alza donde lo más preocupante radica en la vulnerabilidad de aquellos que entran a él. Así como se ganan años y sabiduría, se pierden agudeza en los sentidos y, a veces, capacidades cognitivas.</p>
             <p>Por ello, Leticia Quiroz Ávila, académica de la Benemérita Universidad Autónoma de Puebla, advierte que el aumento en la esperanza de vida es distinto si es analizado desde la calidad de vida, ahí entra la verdadera preocupación. “Es importante entender que no solo se debe preparar al adulto mayor, sino que es necesario pensar que a toda la sociedad le corresponde entrar en el proceso, por ello es indispensable educar para la vejez; entendiendo que esto no solo implica a la persona que ya está en esa etapa, sino educar desde la familia, desde el individuo, desde lo intergeneracional”.</p>
             <p>Con relación a lo intergeneracional Chávez Ortíz añade que a través de diferentes investigaciones se ha comprobado que a muchos jóvenes universitarios no les resulta atractivo, ni interesante el tema de adultos mayores porque consideran que la vejez es “una enfermedad” cuando en realidad es una etapa más de la vida.</p>
             <p>Como cualquier etapa, la vejez, tiene ciertas curvas que oscilan entre sabores dulces y amargos. Una vez que se entra en ella, llegan cambios que, dependiendo de la historia de cada persona, pueden asimilarse o rechazarse. </p>
