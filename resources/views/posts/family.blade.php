@@ -38,9 +38,20 @@
             <h2>Esa historia ya me la contaste diez veces</h2>
             <p>Don Rafa es único, pero parecido a otros adultos mayores. Conversa mucho. Sus temas favoritos son las hazañas donde él es protagonista, héroe o simplemente feliz; cuando amanece con la melancolía encima, platica de los problemas que le afligen y le quitan el sueño porque incluyen a sus seres queridos. Tiene un dolor por aquí, experiencias por allá, sabiduría, anhelos y añoranzas.</p> 
             <p>Diciembre es el mes que más disfruta porque ve a la familia reunida y los lugares del comedor están ocupados por aquellos que ama. Además, le gusta decir el brindis en Navidad y abrir la botella de sidra en Año Nuevo.</p> 
-            
-            <!-- Historia/ ilustración brindis en cena de navidad -->
-            
+        </div>    
+        
+        <!-- Historia/ ilustración brindis en cena de navidad -->
+        <div class="s-content__media col-full">
+            <div class="s-content__post-thumb">
+                <embed src="{{ asset('images/ilustracion.svg') }}" 
+                        srcset="{{ asset('images/ilustracion.svg')}} 2000w, 
+                                {{ asset('images/ilustracion.svg')}} 1000w, 
+                                {{ asset('images/ilustracion.svg')}} 500w" 
+                        sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+            </div>
+        </div> <!-- end s-content__media -->
+        
+        <div class="col-full s-content__main">
             <p>Estas reacciones sobre lo que los adultos mayores dicen, visibilizan, como explica la psicogerontóloga María Fernanda Herrera Delgado, una desvalorización. Los jóvenes suelen creer que el adulto mayor no sabe, no entiende, no puede o que está desfasado porque son otros tiempos; situación que puede inducir al adulto mayor a dejar de comunicarse.</p>
             <p>En este sentido, la repetición de historias es común y proviene del gusto por platicar de su época, es decir, de lo que ya pasó. La psicogerontóloga Adriana Ramayo Romero añade que esto puede generar como joven desinterés, hartazgo e, incluso, expresiones como “¡Ay esa historia ya me la contaste diez veces!”, pero en términos psicológicos, la repetición de historias pasadas por parte del adulto mayor puede deberse a dos causas: emocionales o fisiológicas.</p>
             <p>Sobre la primera, señala que remite a la añoranza, la cual se manifiesta como consuelo por estar mucho tiempo en casa solos y con actividades monótonas; mientras que sobre la segunda, se podría deber a la demencia, común en edades avanzadas por deterioro cognitivo; que genera olvido en su memoria reciente y provoca que recordar lo que hicieron hace 20, 30 o 40 años, sea más fácil.</p>

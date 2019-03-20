@@ -40,7 +40,7 @@ return [
         {
             "id": 5,
             "title": "Conoce más",
-            "menu": "Conoce más",
+            "menu": "Información",
             "image": "images/menu/more.png",
             "view": "more"
         }
@@ -48,18 +48,20 @@ return [
     "infos" => '[
         {
             "id": 0,
-            "title": "Buen trato a adultos mayores",
-            "image": "info/BuenTrato3.svg"
+            "title": "Conviviendo con adultos mayores",
+            "view": "living"
         },
         {
             "id": 1,
-            "title": "Hasta que la muerte nos separe",
-            "image": "info/BuenTrato3.svg"
+            "title": "Actividades intergeneracionales",
+            "image": "info/BuenTrato3.svg",
+            "view": "activities"
         },
         {
             "id": 2,
-            "title": "Acompañado",
-            "image": "info/BuenTrato3.svg"
+            "title": "Lugares y personas que pueden ayudar",
+            "image": "info/BuenTrato3.svg",
+            "view": "help"
         }
     ]'
 ];
