@@ -48,6 +48,20 @@
     ================================================== -->
     <footer class="s-footer">
 
+            <div class="s-footer__main">
+                    <div class="row">
+                        <div class="mob-full s-footer__sitelinks">
+                            <h4>Contacto</h4>
+        
+                            <ul class="s-footer__linklist">
+                                <li><a href="#0">soledadentrepalabras@gmail.com</a></li>
+                            </ul>
+        
+                        </div> <!-- end s-footer__sitelinks -->
+        
+                    </div>
+                </div> <!-- end s-footer__main -->
+
         <div class="s-footer__bottom">
             <div class="row">
                 <div class="col-full">
