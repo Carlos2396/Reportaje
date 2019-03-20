@@ -67,6 +67,8 @@
             <p>Es importante reconocer que los especialistas pueden ayudar a mejorar las dinámicas de convivencia con los adultos mayores al ofrecer soluciones. Si bien, la familia debe ser el apoyo principal, no tiene que trabajar sola.</p>
             <p>Los adultos mayores deben tener una participación activa, es decir, un rol y ser incluídos en las actividades de toda índole de forma cotidiana. La OMS advierte que es importante “la participación social en la edad avanzada, la contribución que las personas mayores pueden hacer en todos los niveles de la sociedad y el potencial para que esto sea lo normal y no una excepción”. Un factor determinante para que esto sea posible es el entorno, ya que socialmente los adultos mayores son segregados y subestimados; a pesar de tener suficientes capacidades y disposición. </p>
             <p>Entender a la vejez implica reconocer que si bien, trae retos y dificultades, es una etapa que tiene cientos de posibilidades. Atender las necesidades de esta etapa es un beneficio presente y futuro, pues el bienestar de estas generaciones es la base del bienestar de las futuras; el mundo está envejeciendo y es en primera persona también. Sobre el papel que tiene la familia no hay que olvidar que el niño aprende del grande y la manera en que sean tratados hoy los abuelos será reflejo de cómo serán tratados los padres en el futuro.</p>
+        
+            <h2>Problemáticas en los adultos mayores</h2>
         </div>
         
         <div class="s-content__media col-full">
