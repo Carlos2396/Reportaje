@@ -12,11 +12,11 @@
 
                 <div class="block-1-2 block-m-full popular__posts">
                     
-                    @include('layouts.colaborator', ['name' => 'Alejandra Quechol Delgado', 'task' => 'Redacción de contenido y fotografía', 'image' => 'images/thumbs/small/wheel-150.jpg'])
-                    @include('layouts.colaborator', ['name' => 'Carlos Amador Manilla', 'task' => 'Desarrollo web', 'image' => 'images/thumbs/small/wheel-150.jpg'])
-                    @include('layouts.colaborator', ['name' => 'Ivana Fernández Delgado', 'task' => 'Ilustración', 'image' => 'images/thumbs/small/wheel-150.jpg'])
-                    @include('layouts.colaborator', ['name' => 'Cuauhtémoc Cruz Isidro', 'task' => 'Asesoría', 'image' => 'images/thumbs/small/wheel-150.jpg'])
-                    @include('layouts.colaborator', ['name' => 'Gabriela Pinto Márquez', 'task' => 'Asesoría', 'image' => 'images/thumbs/small/wheel-150.jpg'])
+                    @include('layouts.colaborator', ['name' => 'Alejandra Quechol Delgado', 'task' => 'Redacción de contenido y fotografía', 'image' => 'images/colaboradores/Ale.png'])
+                    @include('layouts.colaborator', ['name' => 'Carlos Amador Manilla', 'task' => 'Desarrollo web', 'image' => 'images/colaboradores/Carlos.png'])
+                    @include('layouts.colaborator', ['name' => 'Ivana Fernández Delgado', 'task' => 'Ilustración', 'image' => 'images/colaboradores/Ivana.png'])
+                    @include('layouts.colaborator', ['name' => 'Cuauhtémoc Cruz Isidro', 'task' => 'Asesoría', 'image' => 'images/colaboradores/Cuau.png'])
+                    @include('layouts.colaborator', ['name' => 'Gabriela Pinto Márquez', 'task' => 'Asesoría', 'image' => 'images/colaboradores/Gabi.png'])
                 </div> <!-- end popular_posts -->
                 <p>Agradecimientos especiales a todos aquellos que colaboraron para hacer este proyecto posible.</p>
             </div> <!-- end popular -->

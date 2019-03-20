@@ -9,16 +9,6 @@
             <h1 class="s-content__header-title">{{ $current->title }}</h1>
         </div> <!-- end s-content__header -->
 
-        <div class="s-content__media col-full">
-            <div class="s-content__post-thumb">
-                <img src="{{ asset('images/thumbs/single/standard/standard-1000.jpg')}}" 
-                     srcset="{{ asset('images/thumbs/single/standard/standard-2000.jpg')}} 2000w, 
-                             {{ asset('images/thumbs/single/standard/standard-1000.jpg')}} 1000w, 
-                             {{ asset('images/thumbs/single/standard/standard-500.jpg')}} 500w" 
-                     sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
-            </div>
-        </div> <!-- end s-content__media -->
-
         <div class="col-full s-content__main">
 
             <p>El matrimonio en nuestro contexto social es considerado por muchas personas como la culminación de una relación de pareja. A través de este rito o contrato voluntario, dos personas se disponen, en términos ideales, a compartir el resto de su vida juntos.</p>
