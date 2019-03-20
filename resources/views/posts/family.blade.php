@@ -59,13 +59,15 @@
 
         </div>
         
+        <!-- Ensayo fotográfico Alicia: No estoy sola -->
         <div class="s-content__media col-full">
-            <div class="s-content__post-thumb">
-                <embed src="{{ asset('images/ImeldaYPedro.svg') }}" 
-                     srcset="{{ asset('images/ImeldaYPedro.svg')}} 2000w, 
-                             {{ asset('images/ImeldaYPedro.svg')}} 1000w, 
-                             {{ asset('images/ImeldaYPedro.svg')}} 500w" 
-                     sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+            <div class="s-content__slider slider">
+                <div class="slider__slides">
+                    @include('layouts.galleryImg', ['url' => asset('images/Pedro/1.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Pedro/2.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Pedro/3.svg')])
+                    @include('layouts.galleryImg', ['url' => asset('images/Pedro/4.svg')])
+                </div>
             </div>
         </div> <!-- end s-content__media -->
 
