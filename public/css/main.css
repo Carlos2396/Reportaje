@@ -2898,6 +2898,10 @@ html.no-csstransitions .featured {
    padding-bottom: 7.2rem;
 }
 
+.s-content a {
+   font-weight: bold;
+}
+
 .s-content--no-padding-bottom {
    padding-bottom: 0;
 }
