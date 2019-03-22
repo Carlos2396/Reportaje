@@ -12,9 +12,9 @@
 
                 <div class="block-1-2 block-m-full popular__posts">
                     
-                    @include('layouts.colaborator', ['name' => 'Alejandra Quechol Delgado', 'task' => 'Redacción de contenido y fotografía', 'image' => 'images/colaboradores/Ale.png'])
+                    @include('layouts.colaborator', ['name' => 'Anónimo', 'task' => 'Redacción de contenido y fotografía', 'image' => 'images/colaboradores/gustavo.png'])
                     @include('layouts.colaborator', ['name' => 'Carlos Amador Manilla', 'task' => 'Desarrollo web', 'image' => 'images/colaboradores/Carlos.png'])
-                    @include('layouts.colaborator', ['name' => 'Ivana Fernández Delgado', 'task' => 'Ilustración', 'image' => 'images/colaboradores/Ivana.png'])
+                    @include('layouts.colaborator', ['name' => 'Ivana Fernández', 'task' => 'Ilustración', 'image' => 'images/colaboradores/Ivana.png'])
                     @include('layouts.colaborator', ['name' => 'Cuauhtémoc Cruz Isidro', 'task' => 'Asesoría', 'image' => 'images/colaboradores/Cuau.png'])
                     @include('layouts.colaborator', ['name' => 'Gabriela Pinto Márquez', 'task' => 'Asesoría', 'image' => 'images/colaboradores/Gabi.png'])
                 </div> <!-- end popular_posts -->
