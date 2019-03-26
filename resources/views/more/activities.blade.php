@@ -6,7 +6,7 @@
 
         <div class="s-content__header col-full">
             <h1 class="s-content__header-title" id="activity_title">
-                {{ $current->title }}
+                {{ $currentI->title }}
             </h1>
         </div> <!-- end s-content__header -->
 

@@ -46,10 +46,12 @@ Route::get('/informacion/{id}', function ($id) {
     if($id < 0 || $id > sizeof($infos)) return redirect(route('index'));
     
     $next = $prev = null;
-    $current = $infos[$id];
+    $currentI = $infos[$id];
 
     if($id - 1 >= 0) $prev = $infos[$id-1];
     if($id + 1 < sizeof($infos)) $next = $infos[$id+1];
 
-    return view('more/'.$current->view, compact('chapters', 'current', 'next', 'prev'));
+    $current = $chapters[5];
+
+    return view('more/'.$currentI->view, compact('chapters', 'current', 'currentI', 'next', 'prev'));
 })->name('info');

@@ -5,7 +5,7 @@
     <article class="row format-standard">
 
         <div class="s-content__header col-full">
-                <h1 class="s-content__header-title">{{ $current->title }}</h1>
+                <h1 class="s-content__header-title">{{ $currentI->title }}</h1>
         </div> <!-- end s-content__header -->
 
         <div class="col-full s-content__main">
