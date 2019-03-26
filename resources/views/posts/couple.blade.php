@@ -19,9 +19,16 @@
             <p>El Principito tiene diferentes enseñanzas a lo largo de sus páginas y una de las más populares enuncia que el <strong>“amor no es mirarse el uno al otro sino más bien mirar ambos en la misma dirección”</strong>. Antoine de Saint-Exupéry al escribir esto, probablemente se refería a la importancia de compartir y comunicar. <strong>Esta frase puede representar la vida en pareja, la realización de planes en común, la visión acompañada de forma voluntaria y genuina.</strong></p>
             <p>La calle donde vive el matrimonio Flores Morales guarda tantas historias como años. Detrás de un portón naranja se encuentra su hogar, que es frío y huele a cabello suave y blanco, manos arrugadas y apapachos reconfortantes.</p>
             <p>Doña Gloria es una mujer fuerte, amorosa y paciente. Ella dice que físicamente se encuentra bien pues aún puede subirse al camión y cargar cosas pesadas con su carrito del mandado. Actualmente lo que le aflige es la situación de don Guillermo, quien ya no tiene mucha fuerza en sus piernas y camina despacio ayudado por su bastón. Él es un hombre entregado, persistente, amable y persuasivo; tal vez por esto último es tan buen vendedor. Le gusta ir a trabajar al negocio familiar, una zapatería del centro de la ciudad de Puebla que tiene más de medio siglo.</p>
-            
-            <!-- Video Gloria y Guillermo (la historia acompañará el video con breves subtítulos) -->
-            
+        </div>
+
+        <!-- Video Gloria y Guillermo (la historia acompañará el video con breves subtítulos) -->
+        <div class="s-content__media col-full">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/326495253" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            </div> 
+        </div> <!-- end s-content__media -->    
+        
+        <div class="col-full s-content__main">
             <p>Ahora ella tiene 84 años y él, 95. Su casa se encuentra dividida en tres departamentos, uno habitado por ellos y los restantes, por sus dos hijos: Adriana y Memo. Esta dinámica espacial, como señala Chávez Ortíz, era común en los años sesenta y permitía que hasta tres generaciones residieran en la misma casa. Sin embargo, la convivencia entre los señores Flores y sus hijos no es tan frecuente. “A mis hijos no los veo tanto, mejor procuro alejarme” afirma doña Gloria, quien explica que ella y su esposo intentan realizar sus actividades por sí mismos.</p>
             <p class="lead">La relación intergeneracional se está diluyendo y esto se debe, añade Chávez, a diferentes factores sociales, económicos y culturales. Ahora, aunque haya en una familia tres o cuatro generaciones, ya no se unen; por el contrario, tienden a aislarse. Es poco frecuente que los bisnietos convivan con el bisabuelo o los nietos con los abuelos. Incluso compartir un espacio no asegura una interacción frecuente.</p>
             <p>A nivel económico es innegable que las disparidades de ingresos representan riesgos, así aseveran los <strong>sociólogos Fernando Bruno y Jesús Acevedo</strong> en el artículo <a href="https://journals.openedition.org/sociologico/1453">Vejez y sociedad en México</a> ‘se ha mostrado que el envejecimiento de la población en México se lleva a cabo en un contexto caracterizado por un alto índice de pobreza, una amplia desigualdad social y económica producto de una redistribución regresiva del ingreso, y en el plano del mercado de trabajo, con una clara deficiencia en la creación de empleos de calidad y regulados’. </p>

@@ -46,7 +46,7 @@
 
     <!-- s-footer
     ================================================== -->
-    <footer class="s-footer">
+    <footer class="s-footer" id="conatct">
 
             <div class="s-footer__main">
                     <div class="row">
