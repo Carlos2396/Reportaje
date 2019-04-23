@@ -53,7 +53,7 @@ return [
         },
         {
             "id": 1,
-            "title": "Actividades intergeneracionales",
+            "title": "Actividades entre generaciones",
             "image": "info/BuenTrato3.svg",
             "view": "activities"
         },
